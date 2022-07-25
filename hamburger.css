@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hamburger{
+    width: 100%;
+    height: 600px;
+    background-image: url(navbar-bg.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.hamburger a{
+    display: grid;
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.hamburger a:hover{
+    color: hotpink;
+    transition: .5s;
+}
+.hamburgerp{
+    margin-left: 950px;
+    padding-top: 140px;
+}
+.fa-rectangle-xmark{
+    color: white;
+}
+.iconix{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    margin-top: -500px;
+    float: right;
+}
+.iconix:hover{
+    background-color: hotpink;
+    color: white;
+    border: 1px solid hotpink;
+}
+.fa-times{
+    color: black;
+    margin-top: -15px;
+}
+.fa-times:hover{
+    background-color: hotpink;
+    color: white;
+}
